@@ -176,7 +176,7 @@ class EvilWizard(Character):
         # Mage's teleport special ability
         if isinstance(opponent, Mage) and opponent.invun:
     
-            print(f"{self.name} regenerates 5 health! Current health: {self.health}")
+            
 
             print(f"{opponent.name} avoids the attack due to teleport!")
             opponent.invun = False  # Reset invulnerability
